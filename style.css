@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(39,109,221);
+}
+
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  min-height: 30rem;
+  margin-left: -25%;
+  margin-top: -15rem;  
+  background-color: rgba(255, 255, 225, 0.2);
+  color: rgb(65,116,206);
+  text-align: center;
+  padding-bottom: 1em;
+  }
+
+
+.timerDiv p{
+  position: relative;
+  display: inline-block;
+  font-size: 4.5rem;
+  margin-left:.6rem;
+  margin-right:.6rem;
+}
+
+
+#min, #sec, #mil{
+  width: 5.5rem;
+  background-color: rgb(199,223,247);
+  border-radius: .6rem;
+}
+
+.buttons{
+  display: flex;
+  margin-bottom: 3em;
+  width: 65%;
+  margin: auto;
+}
+
+.buttons p{
+  display: inline-block;
+  flex: 1;
+  
+}
+
+#lapBtnP{
+  text-align: left;
+
+}
+#StartBtnP{
+  text-align: right;
+}
+
+#lap{
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+  background-color: rgb(39,109,221);
+  border: none;
+}
+
+
+
+#start{
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bolder;
+  
+  background-color: rgb(39,109,221);
+  color: white;
+  border: none;
+}
+
+#lapDiv{
+  display: flex;
+  align-items: flex-start;
+}
+
+#lapP, #timerP{
+  flex: 1;
+  margin: .5em 0;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+#timerP:hover{
+  color: white;
+  opacity: 1;
+}
+
+#lapP{
+  text-align: left;
+}
+#timerP{
+  text-align: right;
+}
+
+#line{
+  opacity: .6;
+}
+
+#lapContainer{
+  margin: auto;
+  width: 65%;
+  color: white;
+  opacity: .9;
+}
